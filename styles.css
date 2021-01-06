@@ -1,0 +1,62 @@
+#game {
+  display: none;
+}
+
+#hs {
+  display: none;
+}
+
+#back {
+  display: none;
+}
+
+#reload {
+  display: none;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+
+body {
+  text-align: center;
+  background-image: url('images/poker.jpg');
+  background-size: cover;
+
+}
+
+button {
+  margin: 10px;
+  box-shadow: 2px 2px 4px #000000;
+  width: 200px;
+}
+
+
+img {
+  height: 140px;
+  margin: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #000000;
+
+}
+
+
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 4rem;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+p {
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px #000000;
+
+}

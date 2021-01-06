@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blackjack</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<div class='title'>
+  <h1>BLACKJACK</h1>
+  <button class = 'start-btn btn btn-lg btn-light'>START</button>
+</div>
+
+<div id="game" class="container">
+
+<div class="row">
+  <div class="col-lg-6">
+    <p class='player-hand'>Player's hand</p>
+    <div class="p-image">
+    </div>
+    <p class='player-value'></p>
+    <p class='outcome'></p>
+  </div>
+
+  <div class="col-lg-6">
+    <p class='dealer-hand'>Dealer's hand</p>
+    <div class="d-image">
+      <img id="back" src="images/Red_back.jpg">
+    </div>
+    <p class='dealer-value'></p>
+    <p class='d-outcome'></p>
+  </div>
+</div>
+
+</div>
+
+<div id='hs'>
+  <button class = 'hit-btn btn btn-lg btn-light'>Hit</button>
+  <button class = 'stand-btn btn btn-lg btn-light'>Stand</button>
+</div>
+
+<button id="reload" class ='btn btn-lg btn-light' onClick="window.location.reload();">Play Again</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>
